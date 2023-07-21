@@ -1,23 +1,23 @@
 <!-- Plugin Configuration File. Read more: https://plugins.jetbrains.com/docs/intellij/plugin-configuration-file.html -->
 <idea-plugin>
-    <!-- Unique identifier of the plugin. It should be FQN. It cannot be changed between the plugin versions. -->
-    <id>terminator-theme</id>
-    <version>0.0.3</version>
+  <!-- Unique identifier of the plugin. It should be FQN. It cannot be changed between the plugin versions. -->
+  <id>terminator-theme</id>
+  <version>1.0.0</version>
 
-    <!-- Public plugin name should be written in Title Case.
-         Guidelines: https://plugins.jetbrains.com/docs/marketplace/plugin-overview-page.html#plugin-name -->
-    <name>Terminator</name>
-    <category>UI</category>
+  <!-- Public plugin name should be written in Title Case.
+       Guidelines: https://plugins.jetbrains.com/docs/marketplace/plugin-overview-page.html#plugin-name -->
+  <name>Terminator</name>
+  <category>UI</category>
 
-    <!-- A displayed Vendor name or Organization ID displayed on the Plugins Page. -->
-    <vendor email="tiagoaguiar.co@moonjava.com.br" url="https://tiagoaguiar.co">Tiago Aguiar - AT Digital</vendor>
+  <!-- A displayed Vendor name or Organization ID displayed on the Plugins Page. -->
+  <vendor email="tiagoaguiar.co@moonjava.com.br" url="https://tiagoaguiar.co">Tiago Aguiar - AT Digital</vendor>
 
-    <idea-version since-build="222" until-build="232.*"/>
+  <idea-version since-build="222" until-build="232.*"/>
 
-    <!-- Description of the plugin displayed on the Plugin Page and IDE Plugin Manager.
-         Simple HTML elements (text formatting, paragraphs, and lists) can be added inside of <![CDATA[ ]]> tag.
-         Guidelines: https://plugins.jetbrains.com/docs/marketplace/plugin-overview-page.html#plugin-description -->
-    <description><![CDATA[
+  <!-- Description of the plugin displayed on the Plugin Page and IDE Plugin Manager.
+       Simple HTML elements (text formatting, paragraphs, and lists) can be added inside of <![CDATA[ ]]> tag.
+       Guidelines: https://plugins.jetbrains.com/docs/marketplace/plugin-overview-page.html#plugin-description -->
+  <description><![CDATA[
     A dark theme created by Tiago Aguiar.<br>
     <em>Inspired in retro style and Terminator movies &#129302;</em>
     <article class="wt-article test_section_description">
@@ -28,7 +28,7 @@
       <h2>Do you need help?</h2>
       <p>Please check <a href="#faqs" target="_blank" rel="nofollow">the docs FAQs</a> to see if we can solve your problem. If that does not fix your problem, please <a href="#" target="_blank" rel="nofollow">submit an issue</a>.</p>
       <h2>Setup</h2>
-      <p>After installing the theme, go to <code>Preferences | Appearance &amp; Behavior | Appearance</code> and select one of the new themes in the theme dropdown. Once you have selected one of the theme options, click the <strong>OK</strong> button to apply the changes so you can start enjoying One Dark theme!</p>
+      <p>After installing the theme, go to <code>Preferences | Appearance &amp; Behavior | Appearance</code> and select one of the new themes in the theme dropdown. Once you have selected one of the theme options, click the <strong>OK</strong> button to apply the changes so you can start enjoying Terminator theme!</p>
       <p><br><img src="#" alt="Configuration example" width="700"></p>
       <h2>Further Documentation</h2>
       <p>Check out the <a href="#" target="_blank" rel="nofollow">docs</a> for manual installation instructions, additional screenshots, and contributing guidelines.</p>
@@ -40,18 +40,17 @@
     </article>
   ]]></description>
 
-    <!-- Short summary of new features and bugfixes in the latest plugin version.
-         Displayed on the Plugin Page and IDE Plugin Manager. Simple HTML elements can be included between <![CDATA[  ]]> tags. -->
-    <change-notes><![CDATA[
+  <!-- Short summary of new features and bugfixes in the latest plugin version.
+       Displayed on the Plugin Page and IDE Plugin Manager. Simple HTML elements can be included between <![CDATA[  ]]> tags. -->
+  <change-notes><![CDATA[
     Initial release of the theme.
-
   ]]></change-notes>
 
-    <!-- Product and plugin compatibility requirements.
-         Read more: https://plugins.jetbrains.com/docs/intellij/plugin-compatibility.html -->
-    <depends>com.intellij.modules.platform</depends>
+  <!-- Product and plugin compatibility requirements.
+       Read more: https://plugins.jetbrains.com/docs/intellij/plugin-compatibility.html -->
+  <depends>com.intellij.modules.platform</depends>
 
-    <extensions defaultExtensionNs="com.intellij">
-        <themeProvider id="terminator-theme" path="/theme/terminator.theme.json"/>
-    </extensions>
+  <extensions defaultExtensionNs="com.intellij">
+    <themeProvider id="terminator-theme" path="/theme/terminatortheme.theme.json"/>
+  </extensions>
 </idea-plugin>
