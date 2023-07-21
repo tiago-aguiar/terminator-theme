@@ -1,0 +1,161 @@
+{
+  "name": "taguiar-theme",
+  "author": "Tiago Aguiar - AT Digital",
+  "dark": true,
+  "editorScheme": "/theme/taguiartheme-scheme.xml",
+  "colors": {
+    "green": "#a2cd5a",
+    "green2": "#9acd32",
+    "black": "#000000",
+    "primaryBackground": "#000000",
+    "primaryForeground": "#cdaa7d",
+    "brown": "#8b6969",
+    "cyan": "#1AEBFF",
+    "yellow4": "#8b8b00"
+  },
+  "ui": {
+    "*": {
+      "background": "primaryBackground",
+      "foreground": "primaryForeground",
+      "separatorColor": "brown",
+      "borderColor": "#111111",
+      "disabledBorderColor": "#111111",
+      "focusedBorderColor": "#1AEBFF",
+      "hoverBorderColor": "brown",
+      "pressedBorderColor": "brown",
+      "selectionBackground": "green",
+      "selectionForeground": "primaryBackground",
+      "selectionInactiveBackground": "green",
+      "selectionInactiveForeground": "primaryBackground",
+      "selectionBackgroundInactive": "#ffff00",
+      "lineSeparatorColor": "#FF0000"
+    },
+
+    "Window.border": "1,1,1,1,000000",
+    "DefaultTabs": {
+      "underlineColor": "#1AEBFF",
+      "inactiveUnderlineColor": "#1AEBFF",
+      "underlineHeight": 5,
+      "hoverBackground": "#111111"
+    },
+    "FileColor": {
+      "Yellow": "#000000",
+      "Green": "#092E15",
+      "Blue": "#00004D",
+      "Violet": "#471747",
+      "Orange": "#733000",
+      "Rose": "#4D0F22",
+      "Gray": "#062329"
+    },
+    "ToolWindow": {
+      "Header": {
+        "background": "#450073",
+        "inactiveBackground": "primaryBackground"
+      },
+      "HeaderTab": {
+        "selectedInactiveBackground": "#4D0080FF",
+        "hoverBackground": "#7e00d9ff",
+        "hoverInactiveBackground": "#7e00d9FF",
+        "underlineColor": "#1AEBFF",
+        "inactiveUnderlineColor": "#1AEBFF",
+        "underlineHeight": 5
+      },
+      "Tree.modifiedItemForeground": "#ff0000",
+      "Button": {
+        "hoverBackground": "#3333FF",
+        "selectedBackground": "green",
+        "selectedForeground": "black"
+      }
+    },
+    "ActionButton": {
+      "separatorColor": "#ffff00",
+      "hoverBackground": "brown",
+      "hoverBorderColor": "#00000000",
+      "pressedBackground": "brown"
+    },
+    "Button": {
+      "startBackground": "#000000",
+      "endBackground": "#000000",
+      "startBorderColor": "brown",
+      "endBorderColor": "brown",
+      "default": {
+        "foreground": "#000000",
+        "startBackground": "brown",
+        "endBackground": "brown",
+        "startBorderColor": "brown",
+        "endBorderColor": "brown",
+        "focusedBorderColor": "#000000"
+      }
+    },
+
+    "Link": {
+      "activeForeground": "cyan",
+      "hoverForeground": "green",
+      "pressedForeground": "#00ff00",
+      "visitedForeground": "#0000ff"
+    },
+
+    "ScrollBar": {
+      "Transparent": {
+        "thumbColor": "#A6A6A6",
+        "thumbBorderColor": "#000000C8",
+        "hoverThumbColor": "#E6E6E6",
+        "hoverThumbBorderColor": "#000000C8",
+        "hoverTrackColor": "#E6E6E65A"
+      },
+      "thumbColor": "brown",
+      "thumbBorderColor": "#000000C8",
+      "hoverThumbColor": "green",
+      "hoverThumbBorderColor": "#000000C8",
+      "trackColor": "#00000000",
+      "hoverTrackColor": "#00000000",
+
+      "Mac": {
+        "Transparent": {
+          "thumbColor": "#A6A6A6",
+          "thumbBorderColor": "#000000C8",
+          "hoverThumbColor": "#E6E6E6",
+          "hoverThumbBorderColor": "#000000C8",
+          "hoverTrackColor": "#E6E6E65A"
+        },
+        "thumbColor": "brown",
+        "thumbBorderColor": "#000000C8",
+        "hoverThumbColor": "green",
+        "hoverThumbBorderColor": "#000000C8",
+        "trackColor": "#00000000",
+        "hoverTrackColor": "#00000000"
+      }
+    },
+
+
+
+    "ComboBox": {
+      "nonEditableBackground": "black",
+      "modifiedItemForeground": "#ff00ff",
+      "ArrowButton": {
+        "iconColor": "#ffff00",
+        "disabledIconColor": "#00ff00",
+        "nonEditableBackground": "brown"
+      }
+    },
+    "EditorPane": {
+      "inactiveBackground": "#111111",
+      "inactiveForeground": "#ff0000"
+    },
+    "CompletionPopup": {
+      "selectionInactiveBackground": "#111111",
+      "selectionBackground": "black",
+      "matchForeground": "cyan"
+
+    },
+    "EditorTabs": {
+      "unselectedBlend": "0.7",
+      "underlineColor": "green",
+      "underlineHeight": 1,
+      "underlinedTabBackground": "#111111",
+      "inactiveColoredFileBackground": "#00000000"
+    }
+  },
+  "icons": {
+  }
+}
