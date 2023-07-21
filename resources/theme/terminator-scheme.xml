@@ -4,9 +4,9 @@
         <property name="ide">idea</property>
         <property name="ideVersion">2022.2.1.18</property>
         <property name="modified">2023-07-21T08:11:44</property>
-        <property name="originalScheme">taguiar-dark</property>
+        <property name="originalScheme">terminator</property>
         <property name="lcNameBundle">messages.EditorBundle</property>
-        <property name="lcNameKey">taguiar.theme.color.scheme.name</property>
+        <property name="lcNameKey">terminator</property>
     </metaInfo>
     <colors>
         <option name="ADDED_LINES_COLOR" value="2e913f"/>
