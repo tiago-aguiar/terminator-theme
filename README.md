@@ -1,4 +1,4 @@
-<p>A dark theme created by Tiago Aguiar.<br>
+<p><img src="https://raw.githubusercontent.com/tiago-aguiar/terminator-theme/main/resources/META-INF/pluginIcon.svg" alt="Configuration example" width="100"><br>A dark theme created by Tiago Aguiar.<br>
 <em>Fan The Terminator movies and inspired in retro style like Amiga Computers &#129302;</em>
 </p>
 <article class="wt-article test_section_description">
