@@ -1,4 +1,4 @@
-<iframe width="384px" height="319px" src="https://plugins.jetbrains.com/embeddable/card/22329"></iframe>
+<p><a href="https://plugins.jetbrains.com/plugin/22329-terminator-theme?noRedirect=true">Plugin Link</a></p>
 <p><img src="https://raw.githubusercontent.com/tiago-aguiar/terminator-theme/main/resources/META-INF/pluginIcon.svg" alt="Configuration example" width="100"><br>A dark theme created by Tiago Aguiar.<br>
 <em>Fan The Terminator movies and inspired in retro style like Amiga Computers &#129302;</em>
 </p>
